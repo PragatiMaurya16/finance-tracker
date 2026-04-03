@@ -1,4 +1,4 @@
-# 💰 Finance Tracker API
+# Finance Tracker API
 
 ## Overview
 A backend system to manage financial transactions with analytics and role-based design.
@@ -18,6 +18,12 @@ A backend system to manage financial transactions with analytics and role-based 
 
 pip install -r requirements.txt
 
+## Steps to run the Project
+1. Clone the repository
+2. Create virtual environment
+3. Install requirements
+4. Run server using uvicorn
+5. Open http://127.0.0.1:8000/docs
 uvicorn app.main:app --reload
 
 ## API Docs
